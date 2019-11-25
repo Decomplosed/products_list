@@ -10,7 +10,7 @@ const ProductItem = ({ product: { name, number } }) => {
       >
         {name}
       </Link>
-    </li>
+    </li >
   )
 }
 
