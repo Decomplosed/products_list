@@ -93,8 +93,13 @@ img {
 /* Cards */
 .card {
   padding: 1rem;
-  border: #ccc 1px dotted;
+  border: #f4f4f4 1px solid;
   margin: 0.7rem 0;
+}
+
+.card:hover {
+  background: #f4f4f4;
+  border: #ccc 1px solid;
 }
 
 /* List */
