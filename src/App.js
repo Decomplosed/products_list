@@ -4,6 +4,8 @@ import Navbar from './components/layout/Navbar'
 import ProductsList from './components/pages/ProductsList'
 import About from './components/pages/About'
 import NotFound from './components/pages/NotFound'
+import ProductDetails from './components/products/ProductDetails';
+
 import './App.css';
 
 const App = () => {
@@ -15,6 +17,7 @@ const App = () => {
           <Switch>
             <Route exact path='/' component={ProductsList} />
             <Route exact path='/about' component={About} />
+            <Route exact path='/product/:number' component={ProductDetails} />
             <Route component={NotFound} />
           </Switch>
         </div>
