@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 /* Global Styles */
 :root {
@@ -26,10 +26,6 @@ body {
 a {
   color: var(--primary-color);
   text-decoration: none;
-}
-
-a:hover {
-  color: #666;
 }
 
 ul {
@@ -161,6 +157,9 @@ img {
 }
 .my-3 {
   margin: 3rem 0;
+}
+.ma {
+  margin: 0 auto;
 }
 
 /* Grid */
@@ -298,8 +297,15 @@ img {
   border-radius: 50%;
 }
 
+.product-img {
+  width: 12rem;
+  height: 12rem;
+  margin: 1rem;
+}
+
 /* Forms */
-input {
+input,
+textarea {
   margin: 1.2rem 0;
 }
 
@@ -322,6 +328,10 @@ textarea {
   border: 1px solid #ccc;
 }
 
+textarea {
+  height: 10rem;
+}
+
 input[type='submit'],
 button {
   font: inherit;
@@ -336,7 +346,7 @@ button {
 }
 
 .form-container {
-  max-width: 500px;
+  max-width: 800px;
   margin: 2rem auto;
   overflow: hidden;
   padding: 0 2rem;
