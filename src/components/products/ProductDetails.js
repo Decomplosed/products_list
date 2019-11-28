@@ -22,11 +22,11 @@ const ProductDetails = ({ match }) => {
       <Link to={`/product/${product.number}/edit`} className='btn btn-dark'>Edit</Link>
       <div className='card'>
         <div>
-          <strong>Name:</strong>
-          <p>{product.name}</p>
-          <br />
           <strong>Number:</strong>
           <p>{product.number}</p>
+          <br />
+          <strong>Name:</strong>
+          <p>{product.name}</p>
           <br />
           <strong>Description:</strong>
           <p>{product.description}</p>
